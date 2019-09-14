@@ -1,3 +1,16 @@
 {
-
+  "version": "1",
+  "name": "Awesome sub-command",
+  "commands": [
+    {
+      "id": "grep:1.0.2",
+      "conf": { "options": "-E hola $PLACEHOLDER" }
+    },
+    {
+      "id": "sed:0.1.0",
+      "conf": {
+        "options": "-n --quiet \"s/qwerty/uiop/\""
+      }
+    }
+  ]
 }

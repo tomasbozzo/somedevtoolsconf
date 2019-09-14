@@ -1,0 +1,21 @@
+{
+  "version": "1",
+  "commands": [
+    {
+      "id": "json2xml:latest"
+    },
+    {
+      "id": "grep:1.0.2",
+      "conf": { "options": "-E hola $PLACEHOLDER" }
+    },
+    {
+      "id": "github.com/user/json-lint:0.1.4",
+      "name": "Json Linter",
+      "conf": {
+        "vars": [
+          { "name": "myvar", "value": "My variable value" }
+        ]
+      }
+    }
+  ]
+}

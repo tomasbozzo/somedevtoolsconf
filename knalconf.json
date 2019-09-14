@@ -1,5 +1,6 @@
 {
   "version": "1",
+  "name": "Amazing Command",
   "commands": [
     {
       "id": "json2xml:latest"

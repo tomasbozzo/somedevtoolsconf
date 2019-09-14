@@ -12,9 +12,7 @@
     {
       "id": "github.com/tomasbozzo/somedevtoolsconf/submodule",
       "conf": {
-        "vars": [
-          { "name": "myvar", "value": "My variable value" }
-        ]
+        "myvar": "My variable value"
       }
     }
   ]

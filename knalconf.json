@@ -3,11 +3,12 @@
   "name": "Amazing Command",
   "commands": [
     {
-      "id": "json2xml:latest"
+      "id": "awk",
+      "conf": { "options": "the awk options and $ANOTHER_VARIABLE" }
     },
     {
       "id": "grep:1.0.2",
-      "conf": { "options": "-E hola $PLACEHOLDER" }
+      "conf": { "options": "-E hola $variable" }
     },
     {
       "id": "github.com/tomasbozzo/somedevtoolsconf/submodule",

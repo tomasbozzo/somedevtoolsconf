@@ -10,8 +10,7 @@
       "conf": { "options": "-E hola $PLACEHOLDER" }
     },
     {
-      "id": "github.com/user/json-lint:0.1.4",
-      "name": "Json Linter",
+      "id": "github.com/tomasbozzo/somedevtoolsconf/submodule",
       "conf": {
         "vars": [
           { "name": "myvar", "value": "My variable value" }
